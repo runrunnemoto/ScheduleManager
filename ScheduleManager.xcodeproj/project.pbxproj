@@ -17,6 +17,12 @@
 		040863C8216C1B730084A88F /* ScheduleManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040863C7216C1B730084A88F /* ScheduleManagerUITests.swift */; };
 		0424A891216C27F400F3D4D9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424A890216C27F400F3D4D9 /* Event.swift */; };
 		0424A893216C287500F3D4D9 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424A892216C287500F3D4D9 /* EventViewController.swift */; };
+		04DA7C04216C498500D94A27 /* CalculateCalendarLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA7C03216C498500D94A27 /* CalculateCalendarLogic.framework */; };
+		04DA7C06216C499100D94A27 /* Pods_ScheduleManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA7C05216C499100D94A27 /* Pods_ScheduleManagerTests.framework */; };
+		04DA7C08216C499C00D94A27 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA7C07216C499C00D94A27 /* Realm.framework */; };
+		04DA7C0A216C49A500D94A27 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA7C09216C49A500D94A27 /* RealmSwift.framework */; };
+		04DA7C0C216C49AC00D94A27 /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA7C0B216C49AC00D94A27 /* FSCalendar.framework */; };
+		04DA7C0E216C49E200D94A27 /* Pods_ScheduleManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DA7C0D216C49E200D94A27 /* Pods_ScheduleManagerUITests.framework */; };
 		4D00C328D34C4C878A6E5AF9 /* Pods_ScheduleManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B513311BEC30752F8599BFFD /* Pods_ScheduleManagerUITests.framework */; };
 		640978BD895A15E47DEE6561 /* Pods_ScheduleManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EA18F78C1EF76FB452E20F /* Pods_ScheduleManagerTests.framework */; };
 		85223EE749C65535FE1D8B1C /* Pods_ScheduleManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FDF0BBB85E937CB53DA369 /* Pods_ScheduleManager.framework */; };
@@ -56,6 +62,12 @@
 		040863C9216C1B730084A88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0424A890216C27F400F3D4D9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		0424A892216C287500F3D4D9 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		04DA7C03216C498500D94A27 /* CalculateCalendarLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CalculateCalendarLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DA7C05216C499100D94A27 /* Pods_ScheduleManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ScheduleManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DA7C07216C499C00D94A27 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DA7C09216C49A500D94A27 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DA7C0B216C49AC00D94A27 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DA7C0D216C49E200D94A27 /* Pods_ScheduleManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ScheduleManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E13FD7EF1D42B9F9FFEC5D4 /* Pods-ScheduleManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScheduleManagerUITests/Pods-ScheduleManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		47EA18F78C1EF76FB452E20F /* Pods_ScheduleManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScheduleManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		767F62257CE04E92AF06B897 /* Pods-ScheduleManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScheduleManager/Pods-ScheduleManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DA7C0E216C49E200D94A27 /* Pods_ScheduleManagerUITests.framework in Frameworks */,
+				04DA7C0C216C49AC00D94A27 /* FSCalendar.framework in Frameworks */,
+				04DA7C0A216C49A500D94A27 /* RealmSwift.framework in Frameworks */,
+				04DA7C08216C499C00D94A27 /* Realm.framework in Frameworks */,
+				04DA7C06216C499100D94A27 /* Pods_ScheduleManagerTests.framework in Frameworks */,
+				04DA7C04216C498500D94A27 /* CalculateCalendarLogic.framework in Frameworks */,
 				85223EE749C65535FE1D8B1C /* Pods_ScheduleManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +185,12 @@
 		C10F4C1272C71369645CF1F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04DA7C0D216C49E200D94A27 /* Pods_ScheduleManagerUITests.framework */,
+				04DA7C0B216C49AC00D94A27 /* FSCalendar.framework */,
+				04DA7C09216C49A500D94A27 /* RealmSwift.framework */,
+				04DA7C07216C499C00D94A27 /* Realm.framework */,
+				04DA7C05216C499100D94A27 /* Pods_ScheduleManagerTests.framework */,
+				04DA7C03216C498500D94A27 /* CalculateCalendarLogic.framework */,
 				A6FDF0BBB85E937CB53DA369 /* Pods_ScheduleManager.framework */,
 				47EA18F78C1EF76FB452E20F /* Pods_ScheduleManagerTests.framework */,
 				B513311BEC30752F8599BFFD /* Pods_ScheduleManagerUITests.framework */,
